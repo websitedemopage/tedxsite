@@ -246,6 +246,15 @@ body {
     }
 }
 
+.smallsectiongallery {
+    min-height: 30vh;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 40px;
+    overflow-x: hidden;
+}
+
 .navspace {
     height: 8vh;
     min-height: 50px;
