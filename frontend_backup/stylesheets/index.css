@@ -40,16 +40,6 @@ body {
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
-
-    position: relative;
-}
-
-.section {
-    min-height: 90vh;
-    padding: 0px;
-    margin: 0px;
-    overflow-x: hidden;
-
     position: relative;
 }
 
@@ -186,7 +176,7 @@ body {
 
 .navheight {
     height: 8vh;
-    min-height: 50px;
+    min-height: 64px;
 }
 
 .navpositioning {
@@ -218,13 +208,42 @@ body {
     background-color: rgba(255, 0, 0, 1);
 }
 
-.smallsection {
-    min-height: 30vh;
-    height: fit-content;
-    padding: 0px;
-    margin: 0px;
-    padding-bottom: 40px;
-    overflow-x: hidden;
+@media screen and (min-width: 601px){
+    .section {
+        min-height: 90vh;
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .smallsection {
+        min-height: 30vh;
+        height: fit-content;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 40px;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .section {
+        min-height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .smallsection {
+        min-height: 100vh;
+        height: fit-content;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 40px;
+        overflow-x: hidden;
+    }
 }
 
 .navspace {
