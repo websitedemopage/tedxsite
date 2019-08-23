@@ -90,6 +90,27 @@ body {
     position: relative;
     color: white;
 }
+
+.ourteamsecimage {
+    position: relative;
+    background-color: black;
+}
+
+.ourteamsecimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/brick.jpg);
+    background-size: cover;
+    filter: brightness(25%);
+}
+.ourteamsecbgimagecontents{
+    position: relative;
+    color: white;
+}
 /*---------------------------------------------------*/
 
 .verticalalignmentcorrection {
