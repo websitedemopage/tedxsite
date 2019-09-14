@@ -210,7 +210,7 @@ body {
 .navpositioning {
     position: sticky;
     top: 0px;
-    z-index: 2;
+    z-index: 50;
     height: 0;
     overflow: hidden;
 }
@@ -508,4 +508,10 @@ footer:hover{
 
 .partnerssubdiv{
     background-color: #fafafa;
+}
+
+.img-responsive{
+    display:block;
+    max-width:100%;
+    height:auto;
 }
