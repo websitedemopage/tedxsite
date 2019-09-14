@@ -35,7 +35,7 @@
                     <li><a class="red-text navopt" href="#aboutsec">TEDxMITS</a></li>
                     <li><a class="red-text navopt" href="#aboutted">ABOUT TED</a></li>
                     <!-- <li><a class="red-text navopt" href="#speakers">SPEAKERS</a></li> -->
-                    <!-- <li><a class="red-text navopt" href="#partners">PARTNERS</a></li> -->
+                    <li><a class="red-text navopt" href="#partners">PARTNERS</a></li>
                     <li><a class="red-text navopt" href="#tedx2016">PREVIOUS SPEAKERS</a></li>
                     <li><a class="red-text navopt" href="#reachus">REACH US</a></li>
                     <li><a class="red-text navopt" href="team.html">OUR TEAM</a></li>&nbsp;
@@ -52,7 +52,7 @@
             <li><a class="red-text" href="#aboutsec">TEDxMITS</a></li>
             <li><a class="red-text" href="#aboutted">ABOUT TED</a></li>
             <!-- <li><a class="red-text" href="#speakers">SPEAKERS</a></li> -->
-            <!-- <li><a class="red-text" href="#partners">PARTNERS</a></li> -->
+            <li><a class="red-text" href="#partners">PARTNERS</a></li>
             <li><a class="red-text" href="#tedx2016">PREVIOUS SPEAKERS</a></li>
             <li><a class="red-text" href="#reachus">REACH US</a></li>
             <li><a class="red-text" href="team.html">OUR TEAM</a></li>
@@ -233,7 +233,8 @@
                         <div class="col s12 m12 l12 textjustify no-padding">
                             <iframe seamless="seamless" scrolling="no"
                                 src="https://www.yepdesk.com/embed/buy-tickets/5d669688e4b09cd96c7bea25/private/9rc1hmprn2"
-                                style="width: 100%; min-height: 990px; overflow:hidden;" frameborder="0"></iframe>
+                                style="width: 100%; min-height: 990px; overflow:hidden; display: none;"
+                                onload="this.style.display='block';" frameborder="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -504,8 +505,10 @@
                             </div>
                             <div class="col s12 m6 l6">
                                 <h6 class="center-align contentfont white-text">
-                                    Applications Closed !...</h6>
-                                <!-- <h6 class="center-align"><a href="#" target="_blank" class="applylink">&emsp;Lets get
+                                    <h6 class="center-align contentfont"><a data-target="applicationclosed"
+                                            target="_blank" class="modal-trigger applylink contentfont">&emsp;Apply
+                                            Now&emsp;</a></h6>
+                                    <!-- <h6 class="center-align"><a href="#" target="_blank" class="applylink">&emsp;Lets get
                                         you a stage&emsp;</a></h6> -->
                             </div>
                         </div>
@@ -530,8 +533,8 @@
                 <div class="col s8 m4 l2 offset-s2 offset-l5 offset-m4 center-align">
                     <h6>
                         <div class="partnerssubdiv">
-                            <img src="https://www.yepdesk.com/assets/images/yepdesk-logo/yepdesk-logo.svg" alt="yepdesk"
-                                style="height: 50px; object-fit: scale-down;" /><br />&nbsp;
+                            <img src="images/yepdesk.png" alt="yepdesk"
+                                style="height: 40px; object-fit: scale-down;" /><br />&nbsp;
                         </div>
                     </h6>
                 </div>
@@ -834,6 +837,17 @@
                 <div class="contentfontmodal" style="min-height: 20vh;">
                     <h5 class="center-align"></h5>
                     <h4 class="center-align">Opening on September 2 2019</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="applicationclosed" class="modal black white-text modaltext"
+            style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
+            <div class="modal-content">
+                <div class="contentfontmodal" style="min-height: 20vh;">
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align">Applications Closed !...</h4>
                 </div>
             </div>
         </div>
