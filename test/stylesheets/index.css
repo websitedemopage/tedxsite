@@ -80,6 +80,10 @@ body {
 
 .gallerysecimage {
     position: relative;
+
+    /*---------------------------------*/
+    /*background: #282828 url(../images/background/pattern.png) repeat;*/
+    /*---------------------------------*/
 }
 
 .gallerysecimage::before {
