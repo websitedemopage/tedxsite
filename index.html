@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>TEDx MITS</title>
+    <title>TEDxMITS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
@@ -20,9 +20,10 @@
     <link href="stylesheets/fade.css" rel="stylesheet">
     <link href="stylesheets/animatedscrolldownarrow.css" rel="stylesheet">
     <link href="stylesheets/index.css" rel="stylesheet">
+    <link href="stylesheets/materialcard.css" rel="stylesheet">
 </head>
 
-<body id="home">
+<body id="home" style="background-color: #191919;">
     <header id="navbarsection" class="navpositioning growdown navtransperency">
         <nav class="navheight black">
             <div class="nav-wrapper">
@@ -31,14 +32,16 @@
                 <a href="#" data-target="menulinks" class="sidenav-trigger right red-text"><i
                         class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down contentfont">
-                    <li><a class="red-text navopt" href="#aboutsec">TEDx MITS</a></li>
-                    <li><a class="red-text navopt" href="#aboutted">About TED</a></li>
+                    <li><a class="red-text navopt" href="#aboutsec">TEDxMITS</a></li>
+                    <li><a class="red-text navopt" href="#aboutted">ABOUT TED</a></li>
                     <!-- <li><a class="red-text navopt" href="#speakers">SPEAKERS</a></li> -->
-                    <!-- <li><a class="red-text navopt" href="#partners">PARTNERS</a></li> -->
-                    <li><a class="red-text navopt" href="#tedx2016">TEDx MITS 2016</a></li>
+                    <li><a class="red-text navopt" href="#partners">PARTNERS</a></li>
+                    <li><a class="red-text navopt" href="#tedx2016">PREVIOUS SPEAKERS</a></li>
                     <li><a class="red-text navopt" href="#reachus">REACH US</a></li>
-                    <li><a data-target="buyticketsmodal" class="btn buyticketbutton modal-trigger">Buy
-                            Tickets</a>&nbsp;</li>
+                    <li><a class="red-text navopt" href="team.html">OUR TEAM</a></li>&nbsp;
+                    <li><a href="https://www.yepdesk.com/embed/buy-tickets/5d669688e4b09cd96c7bea25/category/1568820807"
+                            target="_blank" class="btn buyticketbutton">BUY
+                            TICKETS</a>&nbsp;</li>
                 </ul>
             </div>
         </nav>
@@ -47,16 +50,18 @@
         <ul class="sidenav sidenav-close contentfont" id="menulinks">
             <li class="center-align"><img src="images/TEDxMITS_BlackText.png" alt="TEDx MITS"
                     class=" tedxmitsnavbarlogopadding tedxmitsnavbarlogo" /></li>
-            <li><a class="red-text" href="#aboutsec">TEDx MITS</a></li>
-            <li><a class="red-text" href="#aboutted">About TED</a></li>
+            <li><a class="red-text" href="#aboutsec">TEDxMITS</a></li>
+            <li><a class="red-text" href="#aboutted">ABOUT TED</a></li>
             <!-- <li><a class="red-text" href="#speakers">SPEAKERS</a></li> -->
-            <!-- <li><a class="red-text" href="#partners">PARTNERS</a></li> -->
-            <li><a class="red-text" href="#tedx2016">TEDx MITS 2016</a></li>
+            <li><a class="red-text" href="#partners">PARTNERS</a></li>
+            <li><a class="red-text" href="#tedx2016">PREVIOUS SPEAKERS</a></li>
             <li><a class="red-text" href="#reachus">REACH US</a></li>
-            <li><a class="red-text modal-trigger" data-target="buyticketsmodal">Buy Tickets</a></li>
+            <li><a class="red-text" href="team.html">OUR TEAM</a></li>
+            <li><a href="https://www.yepdesk.com/embed/buy-tickets/5d669688e4b09cd96c7bea25/category/1568820807"
+                    target="_blank" class="red-text">BUY
+                    TICKETS</a></li>
         </ul>
     </section>
-
     <section id="landingsec" class="fullscreensection landingpage">
         <div class="container">
             <div class="row norowmargin">
@@ -202,12 +207,22 @@
             <div class="row norowmargin">
                 <div class="col s12 datewrapper">
                     <img class="tedxmitsdate" id="datepart" src="images/Date2.png" alt="5th October, 2019." />
+                    <br />
+                    <a id="buypart" class="white-text red btn"
+                        href="https://www.yepdesk.com/embed/buy-tickets/5d669688e4b09cd96c7bea25/category/1568820807"
+                        target="_blank" style="border: 1px solid red; border-radius: 20px; opacity: 0;">BUY TICKETS</a>
+                    <br />&nbsp;
+                    <br />&nbsp;
+                    <br />&nbsp;
+                    <br />&nbsp;
                 </div>
             </div>
             <div class="row norowmargin">
-                <div class="col s12 datewrapper">
+                <div class="col s12 datewrapper" style="position: relative;">
                     <div id="scrollarrow" class="demo">
-                        <a href="#aboutsec"><span></span></a>
+                        <a href="#aboutsec">
+                            <span></span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -222,7 +237,7 @@
             </div>
             <div class="row norowmargin">
                 <div class="col s12">
-                    <h5 class="center-align animated top-direction titlefont red-text">TEDx MITS</h5>
+                    <h5 class="center-align animated top-direction titlefont red-text">TEDxMITS</h5>
                 </div>
             </div>
             <div class="row norowmargin">
@@ -231,12 +246,12 @@
                         <div class="col s12 m6 l6">
                             <div class="row norowmargin">
                                 <div class="col s12 center-align animated top-direction">
-                                    <b class="red-text subtitlefont">About TEDx MITS</b>
+                                    <h6 class="red-text subtitlefont">ABOUT TEDxMITS</h6>
                                 </div>
                             </div>
                             <div class="row norowmargin">
                                 <div class="col s12 left-align textjustify psec animated top-direction contentfont">
-                                    At TEDxMITS, we hope to bring together ideas and sprits that have resolved to crush
+                                    At TEDxMITS, we hope to bring together ideas and spirits that have resolved to crush
                                     the
                                     existing cliches in their own unorthodox ways. This is where the roads converge for
                                     the
@@ -246,10 +261,13 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col s12 m6 l6 show-on-small hide-on-med-and-up">
+                            &nbsp;<br />&nbsp;<br />&nbsp;
+                        </div>
                         <div class="col s12 m6 l6">
                             <div class="row norowmargin">
                                 <div class="col s12 center-align animated top-direction">
-                                    <b class="red-text subtitlefont">About Our Theme</b>
+                                    <h6 class="red-text subtitlefont">ABOUT OUR THEME</h6>
                                 </div>
                             </div>
                             <div class="row norowmargin">
@@ -272,7 +290,7 @@
             </div>
         </div>
     </section>
-    <section id="aboutted" class="smallsection brickbgimage">
+    <section id="aboutted" class="smallsection brickbgimage white-text">
         <div class="brickbgimagecontents">
             <div class="row norowmargin">
                 <div class="col s12">
@@ -295,7 +313,7 @@
                             <div class="col s12 m6 l6">
                                 <div class="row">
                                     <div class="col s12 center-align animated top-direction">
-                                        <b class="red-text subtitlefont">About TED</b>
+                                        <h6 class="red-text subtitlefont">ABOUT TED</h6>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -324,7 +342,7 @@
                             <div class="col s12 m6 l6">
                                 <div class="row">
                                     <div class="col s12 center-align animated top-direction">
-                                        <b class="red-text subtitlefont">About TEDx</b>
+                                        <h6 class="red-text subtitlefont">ABOUT TEDx</h6>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -350,7 +368,7 @@
             </div>
         </div>
     </section>
-    <!-- <section id="speakers" class="section grey lighten-2">
+    <section id="speakers" class="section grey lighten-2">
         <div class="row norowmargin">
             <div class="col s12">
                 <div class="navspace"></div>
@@ -358,66 +376,311 @@
         </div>
         <div class="row">
             <div class="col s12">
-                <h5 class="Helvetica center-align">SPEAKERS</h5>
+                <h5 class="center-align animated top-direction titlefont red-text">SPEAKERS</h5>
             </div>
         </div>
-    </section> -->
-    <!-- <section id="buytickets" class="smallsection">
-        <div class="">
-            <div class="row norowmargin">
-                <div class="col s12">
-                    <div class="navspace"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12">
-                    <h5 class="Helvetica center-align">Let's Reserve You a Seat!...</h5>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col s12 m6 l6 textjustify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis nulla, luctus et
-                                magna sit amet, lobortis ornare quam. Integer tincidunt hendrerit metus, a blandit
-                                ante malesuada eu. Sed mollis quis lectus quis tincidunt. Vestibulum sollicitudin
-                                urna ut libero lobortis, ut tempor eros lobortis. Morbi tincidunt commodo nisi, sit
-                                amet luctus lorem viverra nec. Mauris ultrices, sem a suscipit consectetur, dui
-                                magna ornare ex, non varius metus leo et arcu. Quisque facilisis lorem non ligula
-                                sollicitudin lobortis. Etiam eu aliquet leo. Aliquam fringilla magna mi, non
-                                eleifend lorem maximus sit amet. Cras nulla ex, porttitor vitae semper ut, eleifend
-                                sed ante. Nullam vel eros quis lectus viverra mattis. Donec sollicitudin diam leo.
+        <div class="row">
+            <!-- <div class="container"> -->
+            <div class="row active-with-click">
+                <div class="col s12 m6 l4">
+                    <article class="material-card Red">
+                        <h2>
+                            <span>Sharan Nair</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Content Creator
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="images/speakers/speaker01.jpg">
                             </div>
-                            <div class="col s12 m6 l6 textjustify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis nulla, luctus et
-                                magna sit amet, lobortis ornare quam. Integer tincidunt hendrerit metus, a blandit
-                                ante malesuada eu. Sed mollis quis lectus quis tincidunt. Vestibulum sollicitudin
-                                urna ut libero lobortis, ut tempor eros lobortis. Morbi tincidunt commodo nisi, sit
-                                amet luctus lorem viverra nec. Mauris ultrices, sem a suscipit consectetur, dui
-                                magna ornare ex, non varius metus leo et arcu. Quisque facilisis lorem non ligula
-                                sollicitudin lobortis. Etiam eu aliquet leo. Aliquam fringilla magna mi, non
-                                eleifend lorem maximus sit amet. Cras nulla ex, porttitor vitae semper ut, eleifend
-                                sed ante. Nullam vel eros quis lectus viverra mattis. Donec sollicitudin diam leo.
+                            <div class="mc-description">
+                                Evolution has bestowed Homo Sapiens with a unique ability - to crack jokes and enjoy
+                                them. This Kochi based content creator is then probably at the helm of it. He has
+                                tickled the funny bones of Indians with his Netflix series "Granny Reacts " .
+                                <br />
                             </div>
                         </div>
-                    </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                <span data-target="speaker01details" style="cursor: pointer;" class="modal-trigger">Read
+                                    More ...</span>
+                            </h4>
+                            <a href="https://www.facebook.com/sharan7" target="_blank" class="fa fa-fw fa-facebook"></a>
+                            <a href="https://www.instagram.com/thesharannair/?igshid=npre21ww14cv" target="_blank"
+                                class="fa fa-fw fa-instagram"></a>
+                            <a href="https://www.youtube.com/user/vivaunited7" target="_blank"
+                                class="fa fa-fw fa-youtube-play"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col s12 m6 l4">
+                    <article class="material-card Red">
+                        <h2>
+                            <span>Wg Cdr M A Afraz (Retd)</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Founder, Honourpoint
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="images/speakers/speaker02.jpg">
+                            </div>
+                            <div class="mc-description">
+                                The life and legacy of the martyrs gets buried under the barrage of news and we seldom
+                                remember the trauma undergone by the loved ones. This retired Indian Air Force officer
+                                from Bangalore is doing his bit to resurrect the fallen heroes in the virtual space.
+                                <br />
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                <span data-target="speaker02details" style="cursor: pointer;" class="modal-trigger">Read
+                                    More ...</span>
+                            </h4>
+                            <a href="https://www.honourpoint.in/" target="_blank">&nbsp;&nbsp;<i
+                                    class="fa fa-globe"></i></a>
+                            <a href="https://instagram.com/honourpoint?igshid=jmudb912t05t" target="_blank"
+                                class="fa fa-fw fa-instagram"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col s12 m6 l4">
+                    <article class="material-card Red">
+                        <h2>
+                            <span>Archana Ravi</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Founder, The Buddy Project
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="images/speakers/speaker03.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Having represented India in an International beauty pagent, her
+                                infectious energy is hard to miss. Model, anchor, classical dancer,
+                                the list is endless and yet this square peg in the round hole,
+                                refuses to rest with her laurels. She is already up and about with
+                                her social initiative, the Buddy Project- South India's first
+                                campaign against bullying.
+                                <br />
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                <span data-target="speaker03details" style="cursor: pointer;" class="modal-trigger">Read
+                                    More ...</span>
+                            </h4>
+                            <a href="https://www.facebook.com/arcuana" target="_blank" class="fa fa-fw fa-facebook"></a>
+                            <a href="https://www.instagram.com/archana_ravi/?hl=en" target="_blank"
+                                class="fa fa-fw fa-instagram"></a>
+                        </div>
+                    </article>
+                    <br />
+                </div>
+                <div class="col s12 m6 l4">
+                    <article class="material-card Red">
+                        <h2>
+                            <span>Teena Kondody</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Freelance Artist
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="images/speakers/speaker04.jpg">
+                            </div>
+                            <div class="mc-description">
+                                A flea market, a workshop for kids, or an obscured corner- you
+                                can catch her almost everywhere, silently working away with
+                                what might seem like junk- plastic bottles, dry leaves or old
+                                discs. She has her way with hands to transform all these
+                                bric-a-bracs to breathtaking pieces of art.
+                                <br />
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                <span data-target="speaker04details" style="cursor: pointer;" class="modal-trigger">Read
+                                    More ...</span>
+                            </h4>
+                            <a href="https://www.facebook.com/VyaraOfficial" target="_blank"
+                                class="fa fa-fw fa-facebook"></a>
+                            <a href="https://www.instagram.com/vyara_official/?hl=en" target="_blank"
+                                class="fa fa-fw fa-instagram"></a>
+                            <a href="https://www.teenakondody.com/" target="_blank">&nbsp;&nbsp;<i
+                                    class="fa fa-globe"></i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col s12 m6 l4">
+                    <article class="material-card Red">
+                        <h2>
+                            <span>Team OMM</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Admin Offensive’nt Malayalam Memes
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="images/speakers/speaker05.png">
+                            </div>
+                            <div class="mc-description">
+                                If sarcasm was a superpower, then OMM (Offensive’nt Malayalam
+                                Memes) is definitely a bandwagon of superheroes. This batallion
+                                of youngsters under the veil of anonymity churns out the right
+                                amount of humour-laced take on socially relevant issues.
+                                <br />
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                <span data-target="speaker05details" style="cursor: pointer;" class="modal-trigger">Read
+                                    More ...</span>
+                            </h4>
+                            <a href="https://www.facebook.com/offensivemalayalammemes/" target="_blank"
+                                class="fa fa-fw fa-facebook"></a>
+                            <a href="https://www.instagram.com/offensiventmalayalammemes/?hl=en" target="_blank"
+                                class="fa fa-fw fa-instagram"></a>
+                        </div>
+                    </article>
+                    <br />
+                </div>
+                <div class="col s12 m6 l4">
+                    <article class="material-card Red">
+                        <h2>
+                            <span>Nayana Shyam</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Actor, Script Writer, Director - Filtercopy
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="images/speakers/speaker06.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Nayana Shyam has done what millennials have always dreamt
+                                of - curated her own dream, that too without safety nets to
+                                cushion her fall.
+                                <br />
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                <span data-target="speaker06details" style="cursor: pointer;" class="modal-trigger">Read
+                                    More ...</span>
+                            </h4>
+                            <a href="https://www.facebook.com/filtercopynayana/" target="_blank"
+                                class="fa fa-fw fa-facebook"></a>
+                            <a href="https://www.instagram.com/nayana_shyam/?hl=en" target="_blank"
+                                class="fa fa-fw fa-instagram"></a>
+                            <a href="https://www.youtube.com/filtercopy" target="_blank"
+                                class="fa fa-fw fa-youtube-play"></a>
+                        </div>
+                    </article>
+                    <br />
+                </div>
+                <div class="col s12 m6 l4">
+                    <article class="material-card Red">
+                        <h2>
+                            <span>Akshat Agarwal</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Business Strategist, HPAIR Delegate (2019)
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="images/speakers/speaker07.jpg">
+                            </div>
+                            <div class="mc-description">
+                                An engineer by degree, a Business Strategist by profession, a blogger by passion, a
+                                social activist by choice, Akshat always brims with ideas coupled with an unquestionable
+                                zeal for reaching the pinnacle of success.
+                                <br />
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                <span data-target="speaker07details" style="cursor: pointer;" class="modal-trigger">Read
+                                    More ...</span>
+                            </h4>
+                            <a href="http://www.facebook.com/akshat.agarwal.967" target="_blank"
+                                class="fa fa-fw fa-facebook"></a>
+                            <a href="http://www.linkedin.com/in/akshatagarwal1989" target="_blank"
+                                class="fa fa-fw fa-linkedin"></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col s12 m6 l4">
+                    <article class="material-card Red">
+                        <h2>
+                            <span>Manu Jose</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Actor, Storyteller
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="images/speakers/speaker08.jpg">
+                            </div>
+                            <div class="mc-description">
+                                Creativity is contagious and being around Manu can promise a lot of anecdotes from his
+                                vast experiences in sessions on Theatre and Film acting, TV shows for children, faculty
+                                and corporate training programs and live story telling sessions.
+                                <br />
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                <span data-target="speaker08details" style="cursor: pointer;" class="modal-trigger">Read
+                                    More ...</span>
+                            </h4>
+                            <a href="https://www.linkedin.com/in/manu-jose-006b7353" target="_blank"
+                                class="fa fa-fw fa-linkedin"></a>
+                            <a href="https://youtu.be/UNy868PrZxs" target="_blank" class="fa fa-fw fa-youtube-play"></a>
+                            <a href="http://www.facebook.com/manu.jose.961" target="_blank"
+                                class="fa fa-fw fa-facebook"></a>
+                            <a href="https://youtu.be/E6fios-l8cw" target="_blank" class="fa fa-fw fa-youtube-play"></a>
+                        </div>
+                    </article>
                 </div>
             </div>
+            <!-- </div> -->
         </div>
-    </section> -->
-    <!-- <section id="partners" class="smallsection grey lighten-2">
-        <div class="row norowmargin">
-            <div class="col s12">
-                <div class="navspace"></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12">
-                <h5 class="Helvetica center-align">OUR PARTNERS</h5>
-            </div>
-        </div>
-    </section> -->
+    </section>
     <section id="speakerhunt" class="section speakerhuntimage">
         <div class="speakerhuntbgimagecontents">
             <div class="row norowmargin">
@@ -431,7 +694,7 @@
                         <div class="row">
                             <div class="col s12 speakersecheading">
                                 <div class="animated top-direction">
-                                    <h3 class="Helvetica center-align red-text titlefont">The Spellbinder</h3>
+                                    <h3 class="center-align red-text titlefontspeakerhuntsec">THE SPELLBINDER</h3>
                                 </div>
                             </div>
                         </div>
@@ -444,29 +707,37 @@
                             <div class="col s12 animated top-direction">
                                 <h5 class="center-align subtitlefont">Thought. Word. Action.</h5>
                             </div>
-                            <div class="col s12 textjustify animated top-direction contentfont">
-                                <p>
-                                    &emsp;&emsp;&emsp;&emsp;The deadliest combination that can crush a heart or heal a
-                                    soul,
-                                    shatter dreams or energize them, build up barriers or melt them away. If you have
-                                    thoughts or ideas or experiences that you believe can "crush the cliche" then we
-                                    believe
-                                    that we have just the right space for you.
-                                </p>
-                                <p>
-                                    &emsp;&emsp;&emsp;&emsp;This is a clarion call to the dreamer, the philosopher, the
-                                    geek, the nerd, the curious, the maverick and the non-conformist. Come join us
-                                    aboard the TEDxMITS where we hope to bring together ideas and spirits to explore non
-                                    alienation and "crash" what's conventional. Where we provoke conversations that
-                                    matter.
-                                </p>
+                            <div class="col s12 textjustify contentfont">
+                                <div class="animated top-direction">
+                                    <p>
+                                        &emsp;&emsp;&emsp;&emsp;The deadliest combination that can crush a heart or heal
+                                        a
+                                        soul,
+                                        shatter dreams or energize them, build up barriers or melt them away. If you
+                                        have
+                                        thoughts or ideas or experiences that you believe can "crush the cliche" then we
+                                        believe
+                                        that we have just the right space for you.
+                                    </p>
+                                </div>
+                                <div class="animated top-direction">
+                                    <p>
+                                        &emsp;&emsp;&emsp;&emsp;This is a clarion call to the dreamer, the philosopher,
+                                        the
+                                        geek, the nerd, the curious, the maverick and the non-conformist. Come join us
+                                        aboard the TEDxMITS where we hope to bring together ideas and spirits to explore
+                                        non
+                                        alienation and "crash" what's conventional. Where we provoke conversations that
+                                        matter.
+                                    </p>
+                                </div>
                             </div>
                             <div class="col s12 left-align animated top-direction contentfont">
                                 <b>Where&emsp;:</b>&nbsp;&nbsp;Muthoot Institute of Technology and Science.<br />
                                 <b>When &emsp;:</b>&nbsp;&nbsp;5<sup>th</sup> October 2019.<br />&nbsp;<br />
                             </div>
                             <div class="col s12 center-align animated top-direction contentfont">
-                                In the end we only regret the chances we didnt take!<br />
+                                In the end we only regret the chances we didn't take!<br />
                                 Go on! The clock's ticking away.<br />Apply by 5<sup>th</sup> September, 2019.
                             </div>
                         </div>
@@ -482,14 +753,41 @@
                                 &nbsp;<br />&nbsp;
                             </div>
                             <div class="col s12 m6 l6">
-                                <h6 class="center-align contentfont"><a
-                                        href="https://docs.google.com/forms/d/e/1FAIpQLSdvTBr_fX7nVG_cjVhr67YeSWXxkojTOzApppGdIlGn0kjaBg/viewform"
-                                        target="_blank" class="applylink">&emsp;Apply Now&emsp;</a></h6>
-                                <!-- <h6 class="center-align"><a href="#" target="_blank" class="applylink">&emsp;Lets get
+                                <h6 class="center-align contentfont white-text">
+                                    <h6 class="center-align contentfont"><a data-target="applicationclosed"
+                                            target="_blank" class="modal-trigger applylink contentfont">&emsp;Apply
+                                            Now&emsp;</a></h6>
+                                    <!-- <h6 class="center-align"><a href="#" target="_blank" class="applylink">&emsp;Lets get
                                         you a stage&emsp;</a></h6> -->
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="partners">
+        <div class="row norowmargin">
+            <div class="col s12">
+                <div class="navspace"></div>
+            </div>
+        </div>
+        <div class="row hideoverflow">
+            <div class="col s12 animated top-direction">
+                <h5 class="Helvetica center-align red-text titlefont">PARTNERS</h5>
+            </div>
+        </div>
+        <div class="row hideoverflow contentfont">
+            <div class="row animated top-direction">
+                <div class="col s8 m4 l2 offset-s2 offset-l5 offset-m4 center-align">
+                    <h6>
+                        <div class="center-align red-text">Ticketing Partner</div>
+                        <br />&nbsp;
+                        <div class="partnerssubdiv">
+                            <img src="images/yepdesk.png" alt="yepdesk"
+                                style="height: 40px; object-fit: scale-down;" /><br />&nbsp;
+                        </div>
+                    </h6>
                 </div>
             </div>
         </div>
@@ -502,68 +800,24 @@
         </div>
         <div class="row hideoverflow">
             <div class="col s12 speakersec animated top-direction">
-                <h5 class="Helvetica center-align red-text titlefont">Previous Speakers</h5>
+                <h5 class="Helvetica center-align red-text titlefont">PREVIOUS SPEAKERS</h5>
             </div>
         </div>
-        <!-- <div class="row">
-            <div class="col s12">
-                <div class="container">
-                    <div class="at-grid" data-column="3">
-                        <div class="at-column">
-                            <div class="at-user">
-                                <div class="at-user__avatar"><img src="images/previousspeakers/aalok_thakar.jpeg" />
-                                </div>
-                                <div class="at-user__name">Aalok Thakkar</div>
-                                <div class="at-user__title">Student, Chennai Mathematical Institute</div>
-                            </div>
-                        </div>
-                        <div class="at-column">
-                            <div class="at-user">
-                                <div class="at-user__avatar"><img
-                                        src="images/previousspeakers/aardra_chandra_mouli.webp" /></div>
-                                <div class="at-user__name">Aardra Chandra Mouli</div>
-                                <div class="at-user__title">Founder, Aeka Biochem</div>
-                            </div>
-                        </div>
-                        <div class="at-column">
-                            <div class="at-user">
-                                <div class="at-user__avatar"><img src="images/previousspeakers/Sunny_George.jpg" />
-                                </div>
-                                <div class="at-user__name">Dr. Sunny George</div>
-                                <div class="at-user__title">Director, SCMS Water Institute</div>
-                            </div>
-                        </div>
-                        <div class="at-column">
-                            <div class="at-user">
-                                <div class="at-user__avatar"><img src="images/previousspeakers/john.jpg" /></div>
-                                <div class="at-user__name">John Mathew</div>
-                                <div class="at-user__title">Entrepreneur, Co-founder &amp; CEO of Riafy Technologies
-                                </div>
-                            </div>
-                        </div>
-                        <div class="at-column">
-                            <div class="at-user">
-                                <div class="at-user__avatar"><img src="images/previousspeakers/Saaru.jpg" /></div>
-                                <div class="at-user__name">Saarang Sumesh</div>
-                                <div class="at-user__title">An 8 year old Maker.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <div class="row speakersec hideoverflow contentfont">
             <div class="row">
                 <div class="col s12 m6 l4 offset-l2 scaleuponhover">
                     <div class="card horizontal roundborder animated top-direction">
                         <div class="card-image">
-                            <img src="images/previousspeakers/aalok_thakar.jpeg" height="150px" class="roundleftborder"
+                            <img src="images/previousspeakers/aalok_thakar.jpeg" height="205px" class="roundleftborder"
                                 style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <h6><b>Aalok Thakkar</b></h6>
-                                Student, Chennai Mathematical Institute
+                                Student, Chennai Mathematical Institute<br />
+                                <a href="https://www.youtube.com/watch?v=vnKy8mh9Hk4" target="_blank"><span
+                                        class="fa fa-youtube-play red-text"></span>&nbsp;<span class="red-text">Watch
+                                        the Talk</span></a>
                             </div>
                         </div>
                     </div>
@@ -571,14 +825,17 @@
                 <div class="col s12 m6 l4 scaleuponhover">
                     <div class="card horizontal roundborder animated top-direction">
                         <div class="card-image">
-                            <img src="images/previousspeakers/aardra_chandra_mouli.webp" height="150px"
+                            <img src="images/previousspeakers/aardra_chandra_mouli.webp" height="205px"
                                 class="roundleftborder"
                                 style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <h6><b>Aardra Chandra Mouli</b></h6>
-                                Founder, Aeka Biochem
+                                Founder, Aeka Biochem<br />
+                                <a href="https://www.youtube.com/watch?v=pAXMasKKV0o" target="_blank"><span
+                                        class="fa fa-youtube-play red-text"></span>&nbsp;<span class="red-text">Watch
+                                        the Talk</span></a>
                             </div>
                         </div>
                     </div>
@@ -588,13 +845,16 @@
                 <div class="col s12 m6 l4 offset-l2 scaleuponhover">
                     <div class="card horizontal roundborder animated top-direction">
                         <div class="card-image">
-                            <img src="images/previousspeakers/Sunny_George.jpg" height="150px" class="roundleftborder"
+                            <img src="images/previousspeakers/Sunny_George.jpg" height="205px" class="roundleftborder"
                                 style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <h6><b>Dr. Sunny George</b></h6>
-                                Director, SCMS Water Institute
+                                Director, SCMS Water Institute<br />
+                                <a href="https://www.youtube.com/watch?v=CEkxHs1I9xM" target="_blank"><span
+                                        class="fa fa-youtube-play red-text"></span>&nbsp;<span class="red-text">Watch
+                                        the Talk</span></a>
                             </div>
                         </div>
                     </div>
@@ -602,13 +862,16 @@
                 <div class="col s12 m6 l4 scaleuponhover">
                     <div class="card horizontal roundborder animated top-direction">
                         <div class="card-image">
-                            <img src="images/previousspeakers/john.jpg" height="150px" class="roundleftborder"
+                            <img src="images/previousspeakers/john.jpg" height="205px" class="roundleftborder"
                                 style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <h6><b>John Mathew</b></h6>
-                                Entrepreneur, Co-founder &amp; CEO of Riafy Technologies
+                                Entrepreneur, Co-founder &amp; CEO of Riafy Technologies<br />
+                                <a href="https://www.youtube.com/watch?v=Xs511_ltvQw" target="_blank"><span
+                                        class="fa fa-youtube-play red-text"></span>&nbsp;<span class="red-text">Watch
+                                        the Talk</span></a>
                             </div>
                         </div>
                     </div>
@@ -618,13 +881,16 @@
                 <div class="col s12 m6 offset-m3 l4 offset-l4 scaleuponhover">
                     <div class="card horizontal roundborder animated top-direction">
                         <div class="card-image">
-                            <img src="images/previousspeakers/Saaru.jpg" height="150px" class="roundleftborder"
+                            <img src="images/previousspeakers/Saaru.jpg" height="205px" class="roundleftborder"
                                 style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <h6><b>Saarang Sumesh</b></h6>
-                                An 8 year old Maker.
+                                An 8 year old Maker.<br />
+                                <a href="https://www.youtube.com/watch?v=0L1VgtXNV2Y" target="_blank"><span
+                                        class="fa fa-youtube-play red-text"></span>&nbsp;<span class="red-text">Watch
+                                        the Talk</span></a>
                             </div>
                         </div>
                     </div>
@@ -632,7 +898,7 @@
             </div>
         </div>
     </section>
-    <section id="tedx2016gallery" class="smallsection gallerysecimage">
+    <section id="tedx2016gallery" class="smallsectiongallery gallerysecimage">
         <div class="gallerysecbgimagecontents">
             <div class="row norowmargin">
                 <div class="col s12">
@@ -641,7 +907,7 @@
             </div>
             <div class="row">
                 <div class="col s12">
-                    <h5 class="Helvetica center-align titlefont red-text">TEDx MITS 2016</h5>
+                    <h5 class="Helvetica center-align titlefont red-text">GALLERY</h5>
                 </div>
             </div>
             <div class="row">
@@ -704,9 +970,8 @@
                 <div clas="row norowmargin">
                     <div class="col s12 m6 l3">
                         <div class="row norowmargin">
-                            <div class="col s12 center-align animated top-direction">
-                                <b class="red-text subtitlefont">QUERIES OR SUGGESTIONS ?</b>
-                                <br />&nbsp;
+                            <div class="col s12 center-align animated top-direction subtitlefont">
+                                <b class="red-text">QUERIES OR SUGGESTIONS ?</b>
                             </div>
                         </div>
                         <div class="row norowmargin contentfont">
@@ -717,17 +982,11 @@
                                     <a href="tel:+919846924423" target="_blank"><span
                                             class="fa fa-phone white-text socialbutton"></span></a>
                                 </h4>
-                                <br />&nbsp;<br />
                             </div>
                             <div class="col s12 center-align">
-                                <!-- <div class="contactbuttonwrapper animated top-direction">
-                                             <a class="waves-effect waves-light btn modal-trigger red"
-                                                href="#contactdetails">Contact</a>
-                                </div> -->
-                                <div class="animated top-direction red-text subtitlefont">
-                                    &nbsp;<br />
+                                &nbsp;
+                                <div class="animated top-direction red-text">
                                     <b>SOCIAL</b>
-                                    &nbsp;
                                 </div>
                             </div>
                             <div class="col s12 center-align animated top-direction">
@@ -739,14 +998,27 @@
                                     <a href="https://www.instagram.com/tedxmits/" target="_blank"><span
                                             class="fa fa-instagram white-text socialbutton"></span></a>
                                 </h4>
+                            </div>
+                            <div class="col s12 center-align">
+                                &nbsp;
+                                <div class="animated top-direction red-text subtitlefont">
+                                    <b>TEDxMITS</b>
+                                </div>
+                            </div>
+                            <div class="col s12 center-align animated top-direction">
+                                <div>
+                                    <a href="team.html" target="_blank" class="white-text"
+                                        style="font-size:x-small;">ABOUT OUR TEAM</a><br />
+                                    <!-- <a href="#" target="_blank"></a> -->
+                                </div>
                                 <br />&nbsp;
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m6 l9">
                         <div class="row norowmargin">
-                            <div class="col s12 center-align animated top-direction">
-                                <b class="red-text subtitlefont">WHERE TO FIND US ?</b>
+                            <div class="col s12 center-align animated top-direction subtitlefont">
+                                <b class="red-text">WHERE TO FIND US ?</b>
                                 <br />&nbsp;
                             </div>
                         </div>
@@ -814,15 +1086,217 @@
             style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
             <div class="modal-content">
                 <div class="contentfontmodal" style="min-height: 20vh;">
-                    <h5 class="center-align">Sorry!...</h5>
-                    <h4 class="center-align">We understand your hurry...</h4>
-                    <h6 class="center-align animated infinite flash slow red-text">To be opened soon!...</h6>
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align">Opening on September 2 2019</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="applicationclosed" class="modal black white-text modaltext"
+            style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
+            <div class="modal-content">
+                <div class="contentfontmodal" style="min-height: 20vh;">
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align">Applications Closed !...</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="speaker01details" class="modal black white-text modaltext"
+            style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
+            <div class="modal-content">
+                <div class="contentfontmodal" style="min-height: 20vh;">
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align red-text">Sharan Nair</h4>
+                    <p>
+                        <i>"All the world's a stage and all the men and women merely comedians"</i> – Unknown.
+                        <br />&nbsp;<br />
+                        Evolution has bestowed Homo Sapiens with a unique ability - to crack jokes and enjoy them. This
+                        Kochi based content creator is then probably at the helm of it. He has tickled the funny bones
+                        of Indians with his Netflix series "Granny Reacts " . Having shot to fame with his Instagram
+                        prank videos, Sharan hit the jackpot when he collaborated with Netflix and the rest is history.
+                        What makes him so endearing is that he is like anyone of us, any time, any day- that typical
+                        youth who loves to wake up late, drink 'chai', go for long walks and listen to his parents rant
+                        about how spoilt he is :-P.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="speaker02details" class="modal black white-text modaltext"
+            style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
+            <div class="modal-content">
+                <div class="contentfontmodal" style="min-height: 20vh;">
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align red-text">Wg Cdr M A Afraz (Retd)</h4>
+                    <p>
+                        <div class="center-align"><i>"We may not know them all, but we owe them all".</i></div>
+                        <br />
+                        Our nation owes a debt to the fallen valiant soldiers that we can never fully repay. The life
+                        and legacy of the martyrs gets buried under the barrage of news and we seldom remember the
+                        trauma undergone by the loved ones.<br />
+                        This retired Indian Air Force officer from Bangalore is doing his bit to resurrect the fallen
+                        heroes in the virtual space. Founder of Honourpoint, an online memorial for all the martyrs of
+                        our armed forces since Independence, his experiences have been both overwhelming and heart
+                        touching.<br />
+                        We are honoured and proud to have former Wing Commander M A Afraz on board TEDxMITS, where we
+                        provoke conversations that matter.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="speaker03details" class="modal black white-text modaltext"
+            style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
+            <div class="modal-content">
+                <div class="contentfontmodal" style="min-height: 20vh;">
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align red-text">Archana Ravi</h4>
+                    <p>
+                        &nbsp;<br />
+                        Having represented India in an International beauty pagent, her
+                        infectious energy is hard to miss. Model, anchor, classical dancer,
+                        the list is endless and yet this square peg in the round hole,
+                        refuses to rest with her laurels. She is already up and about with
+                        her social initiative, the Buddy Project- South India's first
+                        campaign against bullying. Archana has been addressing this
+                        issue through her various social media campaigns and real time
+                        support is delivered to those in distress through a
+                        round-the-clock helpline. She has also been the face of the
+                        fashion industry in the #MeToo crusade as she proudly beleives
+                        that her "NOs" shaped her career.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="speaker04details" class="modal black white-text modaltext"
+            style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
+            <div class="modal-content">
+                <div class="contentfontmodal" style="min-height: 20vh;">
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align red-text">Teena Kondody</h4>
+                    <p>
+                        &nbsp;<br />
+                        A flea market, a workshop for kids, or an obscured corner- you
+                        can catch her almost everywhere, silently working away with
+                        what might seem like junk- plastic bottles, dry leaves or old
+                        discs. She has her way with hands to transform all these
+                        bric-a-bracs to breathtaking pieces of art. The works of this art
+                        teacher from Manganam, are a gentle reminder, that art cannot
+                        be simply confined to something that is physically existing, it is
+                        all about returning to our roots and redefining our inner cosmic
+                        energy. Before her current stint as an art instructor, she was on
+                        a silent crusade through the slums of Chennai as a facilitator of
+                        needs, before going on to work in the blind schools of Olassa.
+                        These astounding transitions have left profound impressions on
+                        this 27 year old and she hopes to be the candle that spreads light
+                        and the mirror that reflects it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="speaker05details" class="modal black white-text modaltext"
+            style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
+            <div class="modal-content">
+                <div class="contentfontmodal" style="min-height: 20vh;">
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align red-text">Team Omm</h4>
+                    <p>
+                        &nbsp;<br />
+                        If sarcasm was a superpower, then OMM (Offensive’nt malayalam
+                        memes) is definitely a bandwagon of superheroes. This batallion
+                        of youngsters under the veil of anonymity churns out the right
+                        amount of humour-laced take on socially relevant issues. What
+                        makes OMM stand out in the ocean of meme pages strewn
+                        across social media is that their memes tread on the fine line
+                        between sarcasm and insensitivity with grace.
+                        In a room where people unanimously maintain a conspiracy
+                        of silence, a single voice of truth sounds like a pistol shot and
+                        these youngsters believe that genuine content is as mighty as one.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="speaker06details" class="modal black white-text modaltext"
+            style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
+            <div class="modal-content">
+                <div class="contentfontmodal" style="min-height: 20vh;">
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align red-text">Nayana Shyam</h4>
+                    <p>
+                        <i>For more freshly brewed content, Keep watching Filtercopy"</i> – the
+                        side-splitting laughter that accompanies this deafening chorus
+                        at the end of several FilterCopy videos owes a lot to this woman
+                        behind the lens.
+                        <br />&nbsp;<br />
+                        Nayana Shyam has done what millennials have always dreamt
+                        of - curated her own dream, that too without safety nets to
+                        cushion her fall. This self- made honey soul has "directed" her
+                        way to the hearts of millions of youngsters with her
+                        advertisements for FilterCopy, Nykaa and LifeStyle and her
+                        works have made us lunge for the "the bell icon on your right".
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="speaker07details" class="modal black white-text modaltext"
+            style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
+            <div class="modal-content">
+                <div class="contentfontmodal" style="min-height: 20vh;">
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align red-text">Akshat Agarwal</h4>
+                    <h6 class="center-align red-text">( Winner, SpellBinder 2019 )</h6>
+                    <p>
+                        <br />
+                        An engineer by degree, a Business Strategist by profession, a blogger by passion, a social
+                        activist by choice, Akshat always brims with ideas coupled with an unquestionable zeal for
+                        reaching the pinnacle of success. Having represented India on a myarid of platforms like the
+                        Harvard College Project for Asian & International Relations (2019), he was honoured with an
+                        opportunity to meet Hon’ble Prime Minister of India for his exemplifying works in the social
+                        sphere. This Global Goodwill Ambassador (India) is riding on the wave of oppurtunities and has
+                        been lending a helping hand to the underprivileged children as a Pro-bono volunteer for over 8
+                        years.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="speaker08details" class="modal black white-text modaltext"
+            style=" border: 1px solid rgba(255,0,0,0.2); border-radius: 10px;">
+            <div class="modal-content">
+                <div class="contentfontmodal" style="min-height: 20vh;">
+                    <h5 class="center-align"></h5>
+                    <h4 class="center-align red-text">Manu Jose</h4>
+                    <p>
+                        <br />
+                        Theatre forever remains the interjunction of the visible and invisible worlds and a deeply
+                        rooted desire for transformation unlocks the bolts to this realm . Here is a man who has
+                        prompted the question of not just "whys", but also "why nots" and prompts one to look beyond the
+                        boundaries of "known" with his creative ventures in the field of theatre. Creativity is
+                        contagious and being around Manu can promise a lot of anecdotes from his vast experiences in
+                        sessions on Theatre and Film acting, TV shows for children, faculty and corporate training
+                        programs and live story telling sessions.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
     <footer class="footer">
-        Copyright&nbsp;&copy;&nbsp;TEDx MITS 2019-2020. All Rights Reserved.
+        Copyright&nbsp;&copy;&nbsp;TEDxMITS 2019-2020. All Rights Reserved.<br />
+        Best viewed in Mozilla &amp; Chrome.
     </footer>
 
     <script type="text/javascript" src="javascripts/jquery-3.4.1.min.js"></script>
@@ -833,6 +1307,7 @@
     <script type="text/javascript" src="javascripts/componentcontrollers.js"></script>
     <script type="text/javascript" src="javascripts/navbarcontroller.js"></script>
     <script type="text/javascript" src="javascripts/animationcontroller.js"></script>
+    <script type="text/javascript" src="javascripts/materialcard.js"></script>
 </body>
 
 </html>
