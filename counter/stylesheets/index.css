@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+.titlefont {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.subtitlefont{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.titlefontspeakerhuntsec{
+    font-family: 'Righteous', cursive;
+}
+
+.contentfont{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.contentfontmodal{
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+
+.fullscreensection {
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.landingpage {
+    margin: 0px;
+    padding: 0px;
+    background: #191919;
+}
+
+/*---------------------------------------------------*/
+.aboutsecimage {
+    position: relative;
+    background-color: black;
+}
+
+.aboutsecimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/background/pic7.jpg);
+    background-size: cover;
+    filter: brightness(15%);
+}
+.aboutsecbgimagecontents{
+    position: relative;
+    color: white;
+}
+
+.gallerysecimage {
+    position: relative;
+
+    /*---------------------------------*/
+    /*background: #282828 url(../images/background/pattern.png) repeat;*/
+    /*---------------------------------*/
+}
+
+.gallerysecimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/background/pic4.jpg);
+    background-size: cover;
+    filter: brightness(10%);
+}
+.gallerysecbgimagecontents{
+    position: relative;
+    color: white;
+}
+
+.ourteamsecimage {
+    position: relative;
+    background-color: black;
+}
+
+.ourteamsecimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/brick.jpg);
+    background-size: contain;
+    filter: brightness(25%);
+}
+.ourteamsecbgimagecontents{
+    position: relative;
+    color: white;
+}
+/*---------------------------------------------------*/
+
+.verticalalignmentcorrection {
+    min-height: 4vh;
+}
+
+.norowmargin {
+    margin-bottom: 0px;
+}
+
+.logopadding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tedxmitslogowrapper {
+    text-align: center;
+}
+
+.tedxmitslogo {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    object-fit: scale-down;
+    opacity: 0;
+}
+
+.tedxmitsdate {
+    width: 100%;
+    /*max-width: 450px;*/
+    max-width: 294px;
+    height: auto;
+    object-fit: scale-down;
+    opacity: 0;
+}
+
+.scrollarrowwrapper {
+    display: none;
+    min-height: 75px;
+}
+
+.scrollarrow {
+    border-radius: 50%;
+    display: inline-block;
+    min-width: 43px;
+    height: 43px;
+    padding: auto;
+    background-color: transparent;
+    z-index: 0;
+    color: white;
+}
+
+.scrollarrow:hover {
+    background-color: transparent;
+}
+
+.clockspace {
+    min-height: 100px;
+    height: 32vh;
+}
+
+.datewrapper {
+    text-align: center;
+}
+
+.tedxmitsdate {
+    color: red;
+    /*padding-top: 10px;
+    padding-bottom: 20px;*/
+    opacity: 0;
+}
+
+@media screen and (min-width: 601px) {
+    .responsivetext {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .responsivetext {
+        font-size: 30px;
+    }
+}
+
+.navheight {
+    height: 8vh;
+    min-height: 64px;
+}
+
+.navpositioning {
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+    height: 0;
+    overflow: hidden;
+}
+
+.navtransperency {
+    opacity: 1;
+}
+
+.navopt{
+    color: red;
+}
+
+.navopt:hover{
+    font-weight: bold;
+}
+
+.buyticketbutton {
+    background-color: rgba(255, 0, 0, 0.4);
+    border-radius: 0px;
+}
+
+.buyticketbutton:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+@media screen and (min-width: 601px){
+    .section {
+        min-height: 90vh;
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .smallsection {
+        min-height: 30vh;
+        height: fit-content;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 40px;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .section {
+        min-height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .smallsection {
+        min-height: 100vh;
+        height: fit-content;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 40px;
+        overflow-x: hidden;
+    }
+}
+
+.smallsectiongallery {
+    min-height: 40vh;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 40px;
+    overflow-x: hidden;
+}
+
+.navspace {
+    height: 8vh;
+    min-height: 50px;
+}
+
+.tedxmitsnavbarlogopadding {
+    padding: 10px;
+}
+
+.tedxmitsnavbarlogo {
+    height: 8vh;
+    min-height: 50px;
+    min-width: 168px;
+}
+
+.growdown {
+    height: 0;
+    transition: 0.4s;
+}
+
+.footer {
+    /*height: 5vh;*/
+    min-height: 35px;
+    color: #595959;
+    text-align: center;
+    background-color: #191919;
+    padding: 5px;
+    transition-property: color;
+    transition-duration: 0.5s;
+    padding-bottom: 15px;
+}
+footer:hover{
+    color: white;
+}
+
+.locationmap {
+    height: 250px;
+    width: 100%;
+}
+
+.galleryimages {
+    height: 250px;
+    width: 100%;
+}
+
+.tedimage {
+    padding-top: 10vh;
+    height: auto;
+    width: 100%;
+    max-width: 210px;
+    object-fit: scale-down;
+}
+
+.tedximage {
+    padding-top: 10vh;
+    height: auto;
+    width: 100%;
+    max-width: 269px;
+    object-fit: scale-down;
+}
+
+.tedximagewrappersec {
+    padding-top: 10vh;
+}
+
+.contactbuttonwrapper {
+    min-height: 45px;
+}
+
+.brickbgimage {
+    position: relative;
+}
+
+.brickbgimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/brick.jpg);
+    filter: brightness(30%);
+}
+.brickbgimagecontents{
+    position: relative;
+}
+
+.ticketsec{
+    position: relative;
+    color: red;
+}
+
+.ticketsec::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/ticket.png);
+    background-color: #595959;
+    filter: brightness(45%) blur(2px);
+}
+
+.ticketseccontents{
+    position: relative;
+}
+
+.textjustify{
+    text-align: justify;
+}
+
+.speakersec{
+    position: relative;
+    z-index: 0;
+}
+
+.roundborder{
+    border-radius: 10px;
+}
+
+.roundleftborder{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.reachussec{
+    background-color: #191919;
+}
+
+.speakerhuntimage {
+    position: relative;
+}
+
+.speakerhuntimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/microphone.jpg);
+    background-size: cover;
+    filter: brightness(60%);
+}
+.speakerhuntbgimagecontents{
+    position: relative;
+    color: white;
+}
+
+.applylink{
+    background-color: rgba(255,0,0,0.2);
+    color: white;
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 0px;
+}
+
+.applylink:hover{
+    background-color: red;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.timelinetable{
+    border: 1px solid rgba(255,255,255,0.25);
+}
+
+.timelinerow{
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.modaltext{
+    font-weight: bold;
+}
+
+.tedxmitslogospeakerhunt {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: scale-down;
+}
+
+.socialbutton{
+    opacity: 1;
+}
+
+.socialbutton:hover{
+    opacity: 0.5;
+}
+
+.hideoverflow{
+    overflow: hidden;
+}
+
+.top-direction{
+    opacity: 0;
+}
+
+.contactlinks{
+    color: white;
+}
+
+.contactlinks:hover{
+    color: red;
+}
+
+.scaleuponhover{
+    filter: brightness(50%);
+    transform: scale(1);
+}
+
+.scaleuponhover:hover{
+    filter: brightness(100%);
+    transform: scale(1.05);
+}
+/*-----------------------------------------------------------------------------------------------*/
+.partnersmaindiv{
+    width: 100%;
+    text-align: center !important;
+}
+
+.partnerssubdiv{
+    background-color: #fafafa;
+    padding-top: 20px;
+}
+
+.img-responsive{
+    display:block;
+    max-width:100%;
+    height:auto;
+}
