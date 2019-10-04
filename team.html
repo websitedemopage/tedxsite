@@ -23,7 +23,6 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="stylesheets/materialize.min.css" rel="stylesheet">
     <link href="stylesheets/animate.css" rel="stylesheet">
-    <link href="stylesheets/Helvetica.css" rel="stylesheet">
     <link href="stylesheets/index.css" rel="stylesheet">
     <link href="stylesheets/ourteamcard.css" rel="stylesheet">
     <link href="stylesheets/team.css" rel="stylesheet">
@@ -335,7 +334,11 @@
 
     <script type="text/javascript" src="javascripts/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="javascripts/materialize.min.js"></script>
-    <script type="text/javascript" src="javascripts/componentcontrollers.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function () {
+		$('.sidenav').sidenav();
+	});
+	</script>
     <script type="text/javascript" src="javascripts/animationcontroller.js"></script>
 </body>
 
